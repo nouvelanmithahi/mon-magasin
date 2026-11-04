@@ -1,0 +1,32 @@
+# Site configuration: https://cecil.app/documentation/configuration/
+title: MTH-Shop
+baseline: "Le meilleur choix pour vos achats, c'est MTH-Shop"
+baseurl: /
+description: "« Parce que vous méritez le meilleur, MTH-Shop s'engage à vous proposer des articles d'exception avec un service irréprochable. Trouvez tout ce que vous cherchez en quelques clics. »"
+language: fr-FR
+languages:
+  - code: fr-FR
+    name: fr-FR
+    locale: fr_FR
+author:
+  name: Nouvel-an
+image: icon.png # default image of social networks cards, stored in `assets/`
+taxonomies:
+  tags: tag
+## Additional entries of the main menu (pages are added with their `menu` front matter variable)
+#menus:
+#  main:
+#    - id: github
+#      name: GitHub
+#      url: https://github.com/
+#      weight: 99
+## Number of pages per page of a paginated list
+#pages:
+#  pagination:
+#    max: 5
+## Dates format
+#date:
+#  format: 'F j, Y'
+## Default robots directive
+#metatags:
+#  robots: index,follow
